@@ -63,7 +63,7 @@ Alongside my professional experience, I maintain an **active interest in softwar
 ## 📫 Contact
 
 📧 **Email:** BrunoGilberto.nunes@gmail.com  
-💼 **LinkedIn:** *(add your LinkedIn profile here)*  
+💼 **LinkedIn:** ![Linkedin](https://www.linkedin.com/in/brunogilbertonunes/)
 
 ---
 
