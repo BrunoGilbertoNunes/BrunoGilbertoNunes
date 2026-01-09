@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Bruno Nunes
 
-I'm a **Full Stack Software Developer** with solid experience building and maintaining **production-ready web systems**, working mainly with **PHP (Laravel, WordPress), Node.js, and React**.
+I'm a **Software Engineer** with solid experience building and maintaining **production-ready web systems**, working mainly with **PHP, Node.js, and React**.
 
 I have contributed to **national and international projects**, focusing on **APIs, process automation, system integrations, and performance optimization**, always aiming to deliver reliable and scalable solutions aligned with real business needs.
 
