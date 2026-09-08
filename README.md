@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Bruno Nunes
 
-I'm a **Lead Engineer** with solid experience building and maintaining **production-ready web systems**, working mainly with **PHP, Node.js, and React**.
+I'm a **Software Engineer** with solid experience building and maintaining **production-ready web systems**, working mainly with **PHP, Node.js, and React**.
 
 I have contributed to **national and international projects**, focusing on **APIs, process automation, system integrations, and performance optimization**, always aiming to deliver reliable and scalable solutions aligned with real business needs.
 
@@ -10,7 +10,7 @@ Alongside my professional experience, I maintain an **active interest in softwar
 
 ## 🧠 About Me
 
-- 💻 Lead Engineer with strong backend focus
+- 💻 Software Engineer with strong backend focus
 - 🔧 Experience in APIs, automation, and complex integrations
 - 🚀 Focused on performance, scalability, and code quality
 - 📚 Continuous learner with interest in software architecture and system-level concepts
