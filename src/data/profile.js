@@ -5,12 +5,12 @@ export const profile = {
   location: "São Leopoldo, RS · Brasil",
   email: "brunogilberto.nunes@gmail.com",
   phoneDisplay: "+55 51 9 9919-2998",
-  phoneWa: "5551999192998",
+  phoneWa: "5551991929989",
   github: "github.com/BrunoGilbertoNunes",
   linkedin: "linkedin.com/in/brunogilbertonunes",
   githubUrl: "https://github.com/BrunoGilbertoNunes",
   linkedinUrl: "https://linkedin.com/in/brunogilbertonunes",
-  waUrl: "https://wa.me/5551999192998",
+  waUrl: "https://wa.me/5551991929989",
   about: [
     "Desenvolvedor Full Stack com vivência em ambientes reais de produção, integrações externas e problemas de arquitetura.",
     "Atuo de ponta a ponta: modelagem de dados, regras de negócio, APIs, filas assíncronas e deploy. Hoje curso Engenharia de Software (UniBF) para aliar formação acadêmica à prática já construída.",
@@ -122,8 +122,8 @@ export const projects = [
     links: {},
   },
   {
-    id: "loja5-pix",
-    name: "PIX Sicredi · Loja5",
+    id: "sicredi-pix",
+    name: "PIX Sicredi",
     tagline:
       "Gateway de pagamento PIX Sicredi para WooCommerce.",
     description:
@@ -183,10 +183,10 @@ export const projects = [
     id: "darkz",
     name: "Darkz App",
     tagline:
-      "Plataforma de gestão logística em Laravel + React.",
+      "Plataforma de gestão logística em tempo real para jogos desenvolvida em Laravel + React.",
     description:
-      "Aplicação com painel administrativo, autenticação e módulos de operação logística, construída com stack Laravel/Inertia/React e componentes Tailwind.",
-    stack: ["Laravel", "React", "Inertia.js", "Tailwind", "MySQL"],
+      "Mod do DayZ em C++ para catalago de itens ingaming, vendas via aplicação laravel com stripe e liberação em tempo real via steamid para jogares, Aplicação com painel administrativo, autenticação e módulos de operação logística.",
+    stack: ["Laravel", "React", "Inertia.js", "Tailwind", "MySQL", "C++", "SteamOS"],
     year: "2025",
     accent: "from-blue-500 to-cyan-600",
     icon: "truck",
@@ -240,6 +240,7 @@ export const experience = [
     period: "mar/2025 — jun/2025",
     items: [
       "APIs em Laravel com integração segura a sistemas externos.",
+      "Manutenção e Desenvolvimento de plugins e integrações para Wordpress.",
       "API de automação em Node.js e contribuições em React para manter consistência entre frontend e backend.",
     ],
   },
@@ -249,8 +250,9 @@ export const experience = [
     place: "Santo Amaro/SP",
     period: "ago/2024 — mar/2025",
     items: [
-      "Evolução de plataformas WordPress, manutenção de projetos, correção de incidentes e melhoria de processos técnicos.",
-      "Correção de incidentes críticos e performance em sistemas legados com refatoração aplicando Clean Code.",
+      "Manutenção e evolução de 10+ sites WordPress em produção.",
+      "Desenvolvimento de plugins custom (painéis admin, dashboards e integrações com APIs externas).",
+      "Correção de incidentes de performance em código legado: refatoração de consultas com N+1, reduzindo tempo de resposta de 6s para 1s."
     ],
   },
   {
@@ -259,8 +261,9 @@ export const experience = [
     place: "Porto Alegre/RS",
     period: "jun/2023 — ago/2024",
     items: [
-      "Sistema de importação e sincronização de produtos a partir de APIs externas, integrando direto ao WooCommerce.",
-      "Persistência de estado e histórico de sincronização por produto, com validação e rastreabilidade.",
+      "Integração com API UPS (cotação de frete, validação de peso por carrinho e consulta de time-in-transit) para e-commerce WooCommerce.",
+      "Sistema de importação e sincronização de produtos a partir de ERPs com persistência de estado por produto e histórico de processamento.",
+      "Desenvolvimento de plugins de logística e APIs de integração para WooCommerce."
     ],
   },
   {
@@ -269,8 +272,10 @@ export const experience = [
     place: "Santo Amaro/SP",
     period: "fev/2022 — jun/2023",
     items: [
-      "Sustento de plataformas WordPress/WooCommerce em produção: plugins, temas e integrações.",
-      "Investigação de incidentes críticos e otimização de performance em sistemas legados.",
+      "Desenvolvimento de módulos, temas e integrações para OpenCart em produção; desenvolvimento de plugins WordPress sob demanda.",
+      "Definição de padrão de implementação e deploy para novas lojas, reduzindo tempo de setup entre projetos.",
+      "Sustentação e manutenção de lojas em produção.",
+      "Treinamento e code review de desenvolvedores júnior.",
     ],
   },
   {
@@ -279,8 +284,9 @@ export const experience = [
     place: "Porto Alegre/RS",
     period: "jan/2020 — fev/2022",
     items: [
-      "Backend em Laravel 8 para plataforma de mídia em tempo real, com infraestrutura de live streaming (Linux, Nginx, FFmpeg).",
-      "Comunicação real time via WebSockets para reações, comentários e confirmação de eventos durante transmissões ao vivo.",
+      "Desenvolvimento backend em Laravel 8 para plataforma de mídia em tempo real voltada a criadores de conteúdo.",
+      "Infraestrutura de streaming em servidor dedicado (Linux, Nginx, FFmpeg), com 1.000+ transmissões simultâneas.",
+      "Comunicação em tempo real via WebSockets (reações, comentários, ACK) com 5.000+ conexões simultâneas por canal.",
     ],
   },
 ];
